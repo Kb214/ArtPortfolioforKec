@@ -1,4 +1,4 @@
-tml {
+html {
     box-sizing: border-box;
 }
 
@@ -33,6 +33,59 @@ tml {
 
 }
 
+#cont{
+    background-color:#E786DE;
+    color: #580422;
+    font-size:20px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    margin:0px;
+}
+
+#gallery{
+    background-color:#FAF8DC;
+    color:#580422;
+    font-size:20px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    margin:0px;
+}
+
+#supp{
+    background-color:#E786DE;
+    color: #580422;
+    font-size:20px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+
+    margin:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 #statement h3{
     color:#E786DE;
     font-size:50px;
@@ -41,6 +94,7 @@ tml {
     font-weight: 400;
     font-style: normal;
 }
+
 
 header.primary{
     background-color:#E786DE;
