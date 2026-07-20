@@ -1,0 +1,121 @@
+tml {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+  .container{
+    /* Takes up 80% of page */
+    width: 90vw;
+    max-width: 1230px;
+    /* To center a block on scree use margin spaced 40px on top and botton */
+    margin: 40px auto;
+}
+
+
+
+
+
+
+#home{
+    background-color:#1E9F55;
+    color: #580422;
+    font-size:20px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    margin:0px;
+
+}
+
+#statement h3{
+    color:#E786DE;
+    font-size:50px;
+
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header.primary{
+    background-color:#E786DE;
+    text-align:center;
+    padding:40px;
+
+}
+
+header.primary h1{
+    color: #FAF8DC;
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:60px;
+    letter-spacing: 5px;
+    margin:0px;
+
+   
+}
+
+header.primary #apdes{
+    color: #580422;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size:70px;
+    margin:0px;
+    margin-bottom:40px;
+}
+
+header.primary h2{
+    color: #FAF8DC;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin:0px;
+    
+    font-size:20px;
+}
+
+nav.primary ul{
+    padding: 0;
+
+    /* Makes the flex box for the unordered list*/
+    display:flex;
+
+    /* places the list in a way you want. */
+    flex-direction:row;
+
+    /* How element flow in flex box intems */
+    justify-content:space-around;
+
+    max-width: 1080px;
+    margin: 50px auto;
+
+
+}
+
+nav.primary ul li{
+    list-style-type:none;
+}
+
+
+nav.primary ul li a{
+    color: #580422;
+    text-decoration: none;
+    
+    padding: 6.4px 60px;
+    background-color: rgba(30, 159, 85, 100);
+
+    
+    transition:.2s;
+}
+
+nav.primary ul li a:hover{
+    background-color: rgba(250, 248, 220, .8);
+}
