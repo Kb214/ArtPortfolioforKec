@@ -19,19 +19,7 @@ html {
 
 
 
-#home{
-    background-color:#1E9F55;
-    color: #580422;
-    font-size:20px;
 
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-
-    margin:0px;
-
-}
 
 #cont{
     background-color:#E786DE;
@@ -82,9 +70,21 @@ html {
 
 
 
+/*HOME CSSS*/
 
+#home{
+    background-color:#1E9F55;
+    color: #580422;
+    font-size:20px;
 
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
+    margin:0px;
+
+}
 
 #statement h3{
     color:#E786DE;
@@ -93,8 +93,14 @@ html {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+
 }
 
+
+
+
+/*HEADER CSS*/
 
 header.primary{
     background-color:#E786DE;
@@ -172,4 +178,33 @@ nav.primary ul li a{
 
 nav.primary ul li a:hover{
     background-color: rgba(250, 248, 220, .8);
+}
+
+
+
+
+
+/*GOING UP AND BACK*/
+
+#goup a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;
+    transition:1s;
+
+}
+
+#goup a:hover{
+    background-color:rgba(250, 248, 220, 0);
+}
+
+#goback a{
+    text-decoration:none;
+    color:black;
+    font-size: 25px;
+    transition:1s;
+}
+
+#goback a:hover{
+    background-color:rgba(250, 248, 220, 0);
 }
